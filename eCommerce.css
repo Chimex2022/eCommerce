@@ -387,6 +387,10 @@ th:last-child{
    nav ul li a{
         color: #fff;
     }
+    nav ul li a:hover{
+        color: #000;
+        font-weight: bolder;
+    }
     .menu-icon{
         display: block;
         cursor: pointer;
