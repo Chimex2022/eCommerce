@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Konga | Ecommerce Website Design</title>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link rel="stylesheet" href="eCommerce.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
@@ -19,7 +20,7 @@
 <nav>
 <ul id="MenuItems">
 <li><a href="index.html">Home</a></li>
-<li><a href="product.html">Products</a></li>
+<li><a href="productPage.html">Products</a></li>
 <li><a href="#">About</a></li>
 <li><a href="#">Contact</a></li>
 <li><a href="#">Account</a></li>
@@ -28,15 +29,16 @@
 <img src="images/cart.png" width="30px" height="30px">
 <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
 </div>
+</div>
 
 <div class="row">
-<div class="col-2">
+<div class="col-2" data-aos="slide-right">
 <h1>Give Your Workout <br> A New Style!</h1>
 <p>Success isn't always about greatness. it's about consistency. Consistent <br> hard work gains success. Greatness will come</p>
 <a href="#" class="btn">Explore now</a>
 </div>
 
-<div class="col-2">
+<div class="col-2" data-aos="zoom-in">
 <img src="images/image1.png">
 </div>
 </div>
@@ -46,20 +48,20 @@
 <div class="categories">
     <div class="small-container">
 <div class="row">
-<div class="col-3">
+<div class="col-3" data-aos="fade-right">
 <img src="images/category-1.jpg">
 </div>
 
-<div class="col-3">
+<div class="col-3" data-aos="fade-up">
 <img src="images/category-2.jpg">
 </div>
 
-<div class="col-3">
+<div class="col-3" data-aos="fade-left">
 <img src="images/category-3.jpg">
 </div>
 </div>
 </div>
-</div>
+
 
 
 
@@ -67,7 +69,7 @@
 <div class="small-container">
 <h2 class="title">Latest Products</h2>
 <div class="row">
-<div class="col-4">
+<div class="col-4" data-aos="slide-right" >
 <img src="images/product-1.jpg">
 <h4>Men red polo</h4>
 <div class="rating">
@@ -79,7 +81,7 @@
 </div>
 <p>$30.00</p>
 </div>
-<div class="col-4">
+<div class="col-4" data-aos="fade-up">
 <img src="images/product-2.jpg">
 <h4>Black shoe</h4>
 <div class="rating">
@@ -91,7 +93,7 @@
 </div>
 <p>$50</p>
 </div>
-<div class="col-4">
+<div class="col-4" data-aos="fade-up">
 <img src="images/product-3.jpg">
 <h4>Black jean</h4>
 <div class="rating">
@@ -103,7 +105,7 @@
 </div>
 <p>$30.00</p>
 </div>
-<div class="col-4">
+<div class="col-4" data-aos="slide-left">
 <img src="images/product-4.jpg">
 <h4>Blue Polo</h4>
 <div class="rating">
@@ -118,7 +120,7 @@
 </div>
 <h2 class="title">Latest Products</h2>
 <div class="row">
-    <div class="col-4">
+    <div class="col-4" data-aos="fade-up">
     <img src="images/product-5.jpg">
     <h4>Shoe</h4>
     <div class="rating">
@@ -130,7 +132,7 @@
     </div>
     <p>$30.00</p>
     </div>
-    <div class="col-4">
+    <div class="col-4" data-aos="fade-up">
     <img src="images/product-6.jpg">
     <h4>Black Polo</h4>
     <div class="rating">
@@ -142,7 +144,7 @@
     </div>
     <p>$10.00</p>
     </div>
-    <div class="col-4">
+    <div class="col-4" data-aos="fade-up">
     <img src="images/product-7.jpg">
     <h4>Black amd white sock</h4>
     <div class="rating">
@@ -154,7 +156,7 @@
     </div>
     <p>$5.00</p>
     </div>
-    <div class="col-4">
+    <div class="col-4" data-aos="fade-up">
     <img src="images/product-8.jpg">
     <h4>Wrist watch</h4>
     <div class="rating">
@@ -167,7 +169,7 @@
     <p>$40.00</p>
     </div>
     <div class="row">
-        <div class="col-4">
+        <div class="col-4" data-aos="fade-up">
         <img src="images/product-9.jpg">
         <h4>Wrist watch</h4>
         <div class="rating">
@@ -179,7 +181,7 @@
         </div>
         <p>$30.00</p>
         </div>
-        <div class="col-4">
+        <div class="col-4" data-aos="fade-up">
         <img src="images/product-10.jpg">
         <h4>Treakers</h4>
         <div class="rating">
@@ -191,7 +193,7 @@
         </div>
         <p>$20.00</p>
         </div>
-        <div class="col-4">
+        <div class="col-4" data-aos="fade-up">
         <img src="images/product-11.jpg">
         <h4>Treakers</h4>
         <div class="rating">
@@ -203,7 +205,7 @@
         </div>
         <p>$30.00</p>
         </div>
-        <div class="col-4">
+        <div class="col-4" data-aos="fade-up">
         <img src="images/product-12.jpg">
         <h4>Foot wear</h4>
         <div class="rating">
@@ -222,11 +224,11 @@
 <div class="offer">
 <div class="small-container">
 <div class="row">
-<div class="col-2">
+<div class="col-2" data-aos="zoom-in">
 <img src="images/exclusive.png" class="offer-img">
 </div>
-<div class="col-2">
-<p>Exclusively Available on RedStore</p>
+<div class="col-2" data-aos="fade-up">
+<p>Exclusively Available on KongaStore</p>
 <h1>Smart Band 4</h1>
 <small>The smart Band features a 39.9% larger (than Mi Band 3) AMOLED color <br> full-touch display with adjustable brightness, so everything is clear as can be.</small>
     <br><a href="#" class="btn">Buy Now </a>
@@ -239,7 +241,7 @@
 <div class="testimonial">
 <div class="small-container">
 <div class="row">
-<div class="col-3">
+<div class="col-3" data-aos="zoom-in">
 <p>The function of wears has been <br> the adorable part of people. <br> Everybody loves good wears</p>
 <i class="fa fa-quote-left"></i>
 <div class="rating">
@@ -253,7 +255,7 @@
 <h3>Sean Parker</h3>
 </div>
 
-<div class="col-3">
+<div class="col-3" data-aos="zoom-in">
 <p>The function of wears has been <br> the adorable part of people. <br> Everybody loves good wears</p>
 <i class="fa fa-quote-left"></i>
 <div class="rating">
@@ -266,7 +268,7 @@
 <img src="images/user-2.png">
 <h3>Mary Joy</h3>
 </div>
-<div class="col-3">
+<div class="col-3" data-aos="fade-up">
     <p>The function of wears has been <br> the adorable part of people. <br> Everybody loves good wears</p>
     <i class="fa fa-quote-left"></i>
 <div class="rating">
@@ -288,19 +290,19 @@
 <div class="brands">
 <div class="small-container">
 <div class="row">
-<div class="col-5">
+<div class="col-5" data-aos="fade-up">
 <img src="images/logo-godrej.png" alt="">
 </div>
-<div class="col-5">
+<div class="col-5" data-aos="fade-up">
 <img src="images/logo-oppo.png" alt="">
 </div>
-<div class="col-5">
+<div class="col-5" data-aos="fade-up">
 <img src="images/logo-coca-cola.png" alt="">
 </div>
-<div class="col-5">
+<div class="col-5" data-aos="fade-up">
 <img src="images/logo-paypal.png" alt="">
 </div>
-<div class="col-5">
+<div class="col-5" data-aos="fade-up">
 <img src="images/logo-philips.png" alt="">
 </div>
 </div>
@@ -309,7 +311,7 @@
 </div>
 
 <section class="footer">
-    <div class="container-foot">
+    <div class="container-foot" data-aos="zoom-in">
         <div class="footer-1">
             <h3>Download Our App</h3>
             <p>Download App For Andriond and ios mobile phone.</p>
@@ -320,7 +322,7 @@
         </div>
 
         <div class="footer-2">
-           <img src="images/logo-white.png" alt="">
+           <img src="images/LOGO.webp" class="logo" alt="">
             <p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
         </div>
 
@@ -348,6 +350,10 @@
     <hr>
     <p class="copyright">Copyright 2022 -Kirchoff Tutorial</p>
 </section>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="eCommerce.js"></script>
 </body>
 </html>

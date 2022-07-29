@@ -19,12 +19,13 @@ body{
 }
 
 .header-1{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: deeppink;
 }
 .logo{
     height: 50px;
     width: 180px;
     cursor: pointer;
+  
 }
 .container{
     max-width: 1300px;
@@ -49,11 +50,16 @@ nav ul li{
 
 a{
     text-decoration: none;
-    color: #555;
+    color: #fff;
+    font-weight: bolder;
+
+}
+a:hover{
+    color: #000;
 }
 
 p{
-    color: #555;
+    color: #fff;
 }
 
 .row{
@@ -79,14 +85,14 @@ p{
 
 .btn{
     display: inline-block;
-    background: deeppink;
+    background: #000;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
 }
 .btn:hover{
-    background: #000;
+    background: deeppink;
     transition: 0.5s;
     color: #fff;
 }
@@ -153,7 +159,7 @@ h4{
 }
 
 .offer{
-    background: radial-gradient(#fff, #ffd6d6);
+   background: deeppink;
     margin-top: 80px;
     padding: 30px 0;
 }
@@ -192,7 +198,7 @@ small{
 }
 .col-3  p{
     font-size: 12px;
-    color: #777;
+    color: #555;
     margin: 12px 0;
 }
 
@@ -219,12 +225,12 @@ small{
 }
 .footer{
     background: #000;
-    color: #8a8a8a;
+    color: #fff;
     font-size: 14px;
     padding: 60px 0 20px;
 }
 .footer p{
-    color: #8a8a8a;
+    color: #fff;
 }
 .footer h3{
     color: #fff;
@@ -295,11 +301,70 @@ select:focus{
     text-align: center;
     line-height: 40px;
     cursor: pointer;
+    font-weight: bolder;
+}
+.page-btn span a{
+    color: black;
+    
 }
 .page-btn span:hover{
     background-color: deeppink;
     color: #fff;
+    font-weight: bolder;
 
+}
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: deeppink;
+    font-weight: normal;
+}
+
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: deeppink;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid deeppink;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
 }
 
 /* Media query for mobile  */
@@ -334,6 +399,9 @@ select:focus{
 }
 .col-2, .col-3, .col-4{
     flex-basis: 100%;
+}
+.cart-info p{
+    display: none;
 }
 
 }
